@@ -93,7 +93,20 @@
           "width": 0.315468
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "missing_courtyard|134900000|142700000|ad80cb81-748b-4d55-9935-94712767cbc7|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|135937470|140322647|7d729fc0-da16-484b-8f4f-4932e1f4ccbd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|136014131|146424373|7a2a38c9-5396-4832-9ed0-39182d9acdfe|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -126,18 +139,18 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "mirrored_text_on_front_layer": "warning",
+        "mirrored_text_on_front_layer": "error",
         "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
-        "nonmirrored_text_on_back_layer": "warning",
-        "npth_inside_courtyard": "ignore",
+        "nonmirrored_text_on_back_layer": "error",
+        "npth_inside_courtyard": "warning",
         "padstack": "warning",
-        "pth_inside_courtyard": "ignore",
+        "pth_inside_courtyard": "warning",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
-        "silk_over_copper": "ignore",
-        "silk_overlap": "ignore",
+        "silk_edge_clearance": "error",
+        "silk_over_copper": "error",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -167,7 +180,7 @@
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 1,
-        "min_silk_clearance": 0.0,
+        "min_silk_clearance": 0.1,
         "min_text_height": 0.8,
         "min_text_thickness": 0.01,
         "min_through_hole_diameter": 0.25,
