@@ -213,6 +213,8 @@ outputs:
       - In2.Cu
       - F.SilkS
       - B.SilkS
+      - F.Paste
+      - B.Paste
       - F.Mask
       - B.Mask
       - Edge.Cuts
