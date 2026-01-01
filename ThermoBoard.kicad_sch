@@ -7,7 +7,7 @@
 	(title_block
 		(title "Thermocouple Board")
 		(date "2025-10-15")
-		(rev "1A")
+		(rev "1B")
 		(company "Aggie Propulsion and Rocketry Lab")
 		(comment 1 "Drawn by: Nolan Poe")
 		(comment 2 "Checked by: Daniel Fan")
@@ -109,6 +109,16 @@
 		)
 		(uuid 7c4f0215-881f-49ca-8898-253669f3dff8)
 	)
+	(text "Changelog"
+		(exclude_from_sim no)
+		(at 56.896 169.164 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0882fb56-b8fe-45f2-afd8-6cb9172be3b5")
+	)
 	(text "APRL Thermocouple Board"
 		(exclude_from_sim no)
 		(at 143.51 24.13 0)
@@ -118,6 +128,17 @@
 			)
 		)
 		(uuid "306a2455-07af-4051-90f2-9034ba283cd6")
+	)
+	(text "REV 1A - Initial Release\nREV 1B - Change power polarity indicated on silkscreen, fixed ethernet pinout, fixed board outline"
+		(exclude_from_sim no)
+		(at 47.752 174.244 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "46e1c407-f4cf-4151-bef0-5ea1d8f07cdf")
 	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
